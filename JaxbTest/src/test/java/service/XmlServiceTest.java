@@ -20,10 +20,10 @@ import java.util.ArrayList;
 
 public class XmlServiceTest {
 
-    private final String XML = "resources/clients_import_test.xml";
-    private final String XML_METHOD_1_RESULT = "resources/clients_method_1_test.xml";
-    private final String XML_METHOD_2_RESULT = "resources/clients_method_2_test.xml";
-    private final String XML_METHOD_3_RESULT = "resources/clients_method_3_test.xml";
+    private final String XML = "src/test/resources/clients_import_test.xml";
+    private final String XML_METHOD_1_RESULT = "src/test/resources/clients_method_1_test.xml";
+    private final String XML_METHOD_2_RESULT = "src/test/resources/clients_method_2_test.xml";
+    private final String XML_METHOD_3_RESULT = "src/test/resources/clients_method_3_test.xml";
 
     private ClientsHolder clientsHolder;
     private XmlService xmlService;
